@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>start</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #303030">
+<script src="Animation.js"></script>
+<div class="refresh-border"></div>
+<div class = "top">
+    <h1 class = "title">Currency converter</h1>
+</div>
+<div class="refresh">
+    <a href="/Currency_war_exploded/refresh"><img class = "icon" src="iconizer-Refresh_font_awesome.svg" alt="refresh"></a>
+    <h1 class = "refreshText">refresh</h1>
+</div>
+<div class = "form">
+<form action="/Currency_war_exploded/result" method="POST">
+    <h1>enter value:</h1>
+    <br>
+    <label>
+        <input class = "input" type="number" name="value">
+    </label>
+    <br>
+    <br>
+    <h1>from:</h1>
+    <br>
+    <label>
+        <input class = "input"  type="text" name="forCurrency" autocomplete="off">
+        <br>
+    </label>
+    <br>
+    <br>
+    <h1>to:</h1>
+    <br>
+    <label>
+        <input class = "input"  type="text" name="toCurrency" autocomplete="off">
+        <br>
+    </label>
+    <br>
+    <br>
+    <input class="send" type="submit" value="convert!" autocomplete="off">
+</form>
+</div>
+</body>
+</html>
